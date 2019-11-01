@@ -1,0 +1,23 @@
+{
+  "name": "Control_Panel_Setup_Containers_Get",
+  "version": "1.0.0",
+  "description": "Control_Panel_Setup_Containers_Get web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentgroves/Control_Panel_Setup_Containers_Get.git"
+  },
+  "keywords": [],
+  "author": "Brent Groves <brent.groves@gmail.com> (http://makercountry.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brentgroves/Control_Panel_Setup_Containers_Get/issues"
+  },
+  "homepage": "https://github.com/brentgroves/Control_Panel_Setup_Containers_Get#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
