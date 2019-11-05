@@ -25,7 +25,7 @@ module.exports.insert = function insert(plexRec) {
     //       `insert into ProdVrsTest `
     //       + `(TransDate,p1ProdQuantity,p1TestQuantity,p2ProdQuantity,p2TestQuantity) values ("${dateTime}",12,12,14,14)`;
 let sql =`insert into Control_Panel_Setup_Containers_Get (` +
-`TransDate,ProdServer,Part_No,Name,Multiple, ` +
+`TransDate,PCN,ProdServer,Part_No,Name,Multiple, ` +
 `Container_Note,Cavity_Status_Key,Container_Status, ` +
 `Defect_Type,Serial_No,Setup_Container_Key,Count, ` +
 `Part_Count,Part_Key,Part_Operation_Key,Standard_Container_Type,Container_Type_Key, ` +
@@ -34,7 +34,7 @@ let sql =`insert into Control_Panel_Setup_Containers_Get (` +
 `Default_Printer,Default_Printer_Key,Class_Key,Quantity,Companion, ` +
 `Container_Type,Container_Type_Description,Sort_Order ` +
 `) values ( ` +
-`"${p.TransDate}",${p.ProdServer},"${p.Part_No}","${p.Name}", ${p.Multiple},` +
+`"${p.TransDate}","${p.PCN}",${p.ProdServer},"${p.Part_No}","${p.Name}", ${p.Multiple},` +
 `"${p.Container_Note}",${p.Cavity_Status_Key},"${p.Container_Status}", ` +
 `"${p.Defect_Type}","${p.Serial_No}",${p.Setup_Container_Key},${p.Count}, ` +
 `"${p.Part_Count}",${p.Part_Key},${p.Part_Operation_Key},"${p.Standard_Container_Type}",${p.Container_Type_Key}, ` +
